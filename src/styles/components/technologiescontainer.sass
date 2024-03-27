@@ -12,16 +12,26 @@
     .technology-card
         @include mixins.center
         gap: 1rem
-        padding: 0.5rem
+        padding: 1rem
+        padding-right: 2rem
         border: #ff4800a2 1px solid
         width: 25%
+        min-width: 10%
         margin-bottom: 1rem
         border-radius: variables.$card-border-radius 
 
         h3
             color: variables.$text-color
-            margin: 0.7rem
+            margin: 1rem
 
         svg
             font-size: 3rem
             color: #ff4800
+
+        &:hover
+            transform: scale(1.1)
+            background: variables.$gradient
+            > svg
+                color: variables.$text-color
+            > h3
+                color: variables.$text-color
