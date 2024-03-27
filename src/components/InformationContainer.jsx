@@ -1,6 +1,6 @@
 import "../styles/components/informationcontainer.sass";
 
-import { AiFillPhone, AiOutlineMail, AiFillEnvironment } from "react-icons/ai";
+import { AiFillPhone, AiFillMail, AiFillEnvironment } from "react-icons/ai";
 
 const InformationContainer = () => {
   return (
@@ -13,10 +13,10 @@ const InformationContainer = () => {
         </div>
       </div>
       <div className="info-card">
-        <AiOutlineMail id="email-icon" />
+        <AiFillMail id="email-icon" />
         <div>
           <a href="mailto:dev.marcus@outlook.com"><h3>E-mail</h3></a>
-          <p>dev.marcus@outlook.com</p>
+          <p>den.marcus@outlook.com</p>
         </div>
       </div>
       <div className="info-card">
