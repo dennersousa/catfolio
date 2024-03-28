@@ -10,20 +10,21 @@
     align-items: center
     text-align: center
     position: relative
-    padding: 3rem 0
+    padding: 2rem 0
 
-    img
-        max-width: 70%
+    img    
+        max-width: 60%
         border-radius: 50%
-        border: none variables.$text-color
-        position: absolute
-        top: -3rem
+        border: none
+        position: flex
+        @media only screen and (max-width: 100%)
+            width: 50%
 
     .title
         color: variables.$text-color-secondary
         background-color: variables.$bg-color-secondary
         border-radius: variables.$card-border-radius
-        margin-top: 12rem
+        margin-top: 2rem
         padding: .8rem 1.2rem
 
     .btn
